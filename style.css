@@ -1,54 +1,105 @@
-
 body {
-  font-family: Helvetica, sans-serif;
-  background-image: url('http://beta.kellyrand.com/wp-content/uploads/ikatpattern22.png'); 
-  background-repeat: repeat; background-position: top left;
-  background-attachment: scroll;
-}
-
-.menu {
-  background-color: #1f344e;
-  background-image: none;
-  filter: none;
   margin: 0 auto;
-  font-family: Bookeyed Jack;
-  text-align: center;
+  max-width: 959px;
+  background: url("images/ikatpattern22.png");
+  padding: 0;
+  }
+h1 {
+  margin: 10px 0 0 10px;
 }
-
-.menu a {
-  border: none;
-  margin: 0;
-  padding: 1px 20px;
-  height: 100px;
-  text-shadow: none;
+label {
   font-weight: normal;
-  font-size:72px;
+}
+.background {
+  background-color: #ffffff;
+  margin: 0;
+  border-top: 1px solid white;
+  padding: 10px;
+  min-height:500px;
 }
 
-.menu a:hover {
-  background-color: #73cacd;
-  background-image: none;
-  color: #000000;
-  filter: none;
-  border:none;
+.main {
+  margin: auto 0;
+  background: url("images/Frontpageimage1.png");
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+h2{
+  font-family: 'Wire One', sans-serif;
+  font-size: 44pt;
+  color: #1e334e;
+}
+.nav{
+  font-family: 'Wire One', sans-serif;
+  font-size: 28pt;
+}
+.nav li a{
+  background-color:#1f344e;
+  color:white;
+}
+.nav li a:hover{
+  background-color:#73cacd;
+  color:white;
+}
+.RSS {
+  background-color: #62a5a3;
+  width: 292px;
+  height: 280px;
+  margin: 10px;
+  padding: 6px;
+  float: left;
+}
+.newsletter {
+  background-color: #62a5a3;
+  width: 292px;
+  height: 280px;
+  margin: 10px;
+  padding: 6px;
+  float: left;
+  text-align:center;
+}
+.book {
+   background-color: #62a5a3;
+  width: 292px;
+  height: 280px;
+  margin: 10px;
+  padding: 6px;
+  float: left;
 }
 
-ul.menu > li:hover {
-  background-color: transparent;
-  border:none;
-  /*color: #ffffff;*/
+@media (max-width: 500px) {
+  h1 {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main {
+    background-image: url("images/Homeimage_mobile.png");
+    background-position: top center;
+    margin-top: 10px;
+  }
+  .RSS {
+    float:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   .newsletter {
+    float:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   .book {
+    float:none;
+    margin: 10px;
+  }
+
 }
 
-.menu .current_page_item a,
-.menu .current-menu-item a {
-  background-color: none;
-}
-
-
-div#container.hfeed{
-  background-color: white;
-}
-
-#wrapper{
-  border: 1px solid #60a2a0;
-}
