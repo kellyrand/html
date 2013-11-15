@@ -1,0 +1,54 @@
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url('http://beta.kellyrand.com/wp-content/uploads/ikatpattern22.png'); 
+  background-repeat: repeat; background-position: top left;
+  background-attachment: scroll;
+}
+
+.menu {
+  background-color: #1f344e;
+  background-image: none;
+  filter: none;
+  margin: 0 auto;
+  font-family: Bookeyed Jack;
+  text-align: center;
+}
+
+.menu a {
+  border: none;
+  margin: 0;
+  padding: 1px 20px;
+  height: 100px;
+  text-shadow: none;
+  font-weight: normal;
+  font-size:72px;
+}
+
+.menu a:hover {
+  background-color: #73cacd;
+  background-image: none;
+  color: #000000;
+  filter: none;
+  border:none;
+}
+
+ul.menu > li:hover {
+  background-color: transparent;
+  border:none;
+  /*color: #ffffff;*/
+}
+
+.menu .current_page_item a,
+.menu .current-menu-item a {
+  background-color: none;
+}
+
+
+div#container.hfeed{
+  background-color: white;
+}
+
+#wrapper{
+  border: 1px solid #60a2a0;
+}
