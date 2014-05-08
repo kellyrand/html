@@ -1,33 +1,74 @@
 body {
-  margin: 0 auto;
-  max-width: 959px;
   background: url("images/ikatpattern22.png");
   padding: 0;
   }
 h1 {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 10px 0;
+  font-family: 'Wire One', sans-serif;
+  font-size: 40pt;
+  color: #073149;
+  font-weight: bold;
 }
 label {
   font-weight: normal;
 }
-.background {
-  background-color: #ffffff;
-  margin: 0;
-  border-top: 1px solid white;
-  padding: 10px;
-  min-height:500px;
+a {
+  color: #473f3d;
+}
+.background{
+  background-color: white;
+}
+.container {
+  background-color:white;
+  max-width: 959px;
+  min-height:830px;
+  margin: 0 auto;
 }
 
-.main {
-  margin: auto 0;
-  background: url("images/Frontpageimage1.png");
+.content {
+  padding:10px;
+}
+
+.splash {
+  background-image: url("images/Frontpageimage1.png");
   background-repeat: no-repeat;
   min-height: 500px;
 }
+
+.image-holder{
+  text-align:center;
+}
+.nav li.active a, .nav li.active a:hover{
+  background-color: #5fa1a0;
+}
+
 h2{
   font-family: 'Wire One', sans-serif;
-  font-size: 44pt;
-  color: #1e334e;
+  font-size: 40pt;
+  color: #073149;
+  text-align:center;
+  font-weight: bold;
+}
+.h2 {
+  font-family: 'Wire One', sans-serif;
+  font-size: 40pt;
+  color: #073149;
+  text-align:left;
+  font-weight: bold;
+}
+.lead {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18pt;
+  color: #473f3d;
+
+}
+.eventlogos img{
+  padding: 10px 10px;
+
+}
+.box{
+  margin:20px auto;
+  max-width:320px;
 }
 .nav{
   font-family: 'Wire One', sans-serif;
@@ -38,33 +79,37 @@ h2{
   color:white;
 }
 .nav li a:hover{
-  background-color:#73cacd;
+  background-color: #5fa1a0;
   color:white;
 }
-.RSS {
-  background-color: #62a5a3;
-  width: 292px;
-  height: 280px;
-  margin: 10px;
-  padding: 6px;
-  float: left;
+.RSS h2 {
+  margin-top: 0;
 }
+.RSS a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 21pt;
+  text-align: left;
+  margin-top: 10px;
+  }
 .newsletter {
-  background-color: #62a5a3;
-  width: 292px;
-  height: 280px;
-  margin: 10px;
-  padding: 6px;
-  float: left;
   text-align:center;
 }
+.newsletter h2 {
+  margin-top: 0;
+
+}
 .book {
-   background-color: #62a5a3;
-  width: 292px;
-  height: 280px;
-  margin: 10px;
-  padding: 6px;
-  float: left;
+ background-color: transparent;
+}
+.book h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.footer {
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18pt;
+color: #473f3d;
 }
 
 @media (max-width: 500px) {
@@ -81,17 +126,13 @@ h2{
     font-size: 20px;
     line-height: 24px;
   }
-  .main {
+  .splash {
     background-image: url("images/Homeimage_mobile.png");
     background-position: top center;
     margin-top: 10px;
+    min-height: 300px;
   }
-  .RSS {
-    float:none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-   .newsletter {
+ .newsletter {
     float:none;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -100,6 +141,9 @@ h2{
     float:none;
     margin: 10px;
   }
-
+  .container{
+    padding-left:0;
+  }
+  .navbar-nav>li{float:none}.navbar-nav>li+li{margin-top:2px;margin-left:0}
 }
 
