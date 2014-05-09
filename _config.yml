@@ -1,0 +1,18 @@
+# Site settings
+name: Kelly Rand
+title: Site
+email: info@kellyrand.com
+description: ""
+baseurl: ""
+url: "http://kellyrand.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
+menu:
+- /about/
+- /blog/
+- /writing/
+- /events/
+- /book/
+

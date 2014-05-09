@@ -1,0 +1,17 @@
+---
+layout: page
+link: Blog
+title: Blog
+permalink: /blog/
+---
+  {% for post in site.posts %}
+    <h1 class="entry-title post-title">
+      <a href="{{ post.url }}" rel="bookmark">
+        {{ post.title }}
+      </a>
+    </h1>
+    <article class="post-content">
+      {{ post.content }}
+    </article>
+
+  {% endfor %}
