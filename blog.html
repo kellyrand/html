@@ -13,5 +13,8 @@ permalink: /blog/
     <article class="post-content">
       {{ post.content }}
     </article>
+     <a href="{{ post.url }}" rel="bookmark" class="pull-right">
+        <i class="fa fa-chevron-circle-left"></i> Comments
+      </a>
 
   {% endfor %}

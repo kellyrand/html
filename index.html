@@ -6,7 +6,30 @@ layout: none
 
 <body class="home blog logged-in">
 <div class="container"><div class="content">
-<h1><img src="/images/cropped-KR_header.png"></h1>
+<nav class="navbar" role="navigation">
+      <div class="navbar-header">
+        <img src="/images/cropped-KR_header.png">
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right nav-pills">
+          {% for link in site.menu %}
+            {% if link == page.url%}
+              <li class="active"><a>{{link | remove:'/' |capitalize}}</a></li>
+            {% else %}
+              <li><a href="{{link}}">{{link | remove:'/' |capitalize}}</a></li>
+            {% endif %}
+          {% endfor %}
+<!--           <li><a href="/writing/">Writing</a></li>
+          <li><a href="/event/">Events</a></li>
+          <li><a href="/book/">Book</a></li>
+ -->          <li>
+            <a href="http://kellyrand.bigcartel.com/product/handmade-to-sell"target="_blank" >Shop</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
   <nav class="splash row"></nav>
 
   <div class="row">

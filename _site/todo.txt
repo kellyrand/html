@@ -1,0 +1,10 @@
+Chrome mobile view: alpaca image is getting cut off.
+Chrome mobile view: blog image is not centered
+Chrome mobile view: book image is not centered
+✓ On Writing: notch in background top and bottom
+✓ Chrome mobile view, Writing: logo isn't centered
+✓ Chrome mobile view, Writing, nav isn't same as About
+✓ Chrome About page - sm coloumn is messing up images. 
+Hook up the blog from WP - style like the site. 
+Add image RSS to homepage (blog)
+Add commenting/Disqu to blog
